@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys Shop</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white shadow-lg rounded-lg max-w-xs w-full">
+        <!-- Header -->
+        <div class="p-4 flex flex-col items-center">
+            <img src="https://image.freepik.com/vector-gratis/diseno-logotipo-juguetes-ninos_29937-4737.jpg" alt="Toys Shop" class="w-24 h-24 mb-4">
+            <div class="grid grid-cols-2 gap-4 w-full">
+                <!-- Boxes -->
+                <div class="bg-gray-200 p-4 rounded-lg flex flex-col items-center hover:bg-gray-300 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mb-2 hover:scale-110 hover:text-blue-500 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4a4 4 0 11-8 0 4 4 0 018 0zm0 2a6 6 0 00-6 6v1a6 6 0 1012 0v-1a6 6 0 00-6-6z" />
+                    </svg>
+                    <span class="text-sm hover:text-blue-500 transition duration-300">Minha Conta</span>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg flex flex-col items-center hover:bg-gray-300 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mb-2 hover:scale-110 hover:text-blue-500 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7M5 7h.01" />
+                    </svg>
+                    <span class="text-sm hover:text-blue-500 transition duration-300">Pedidos</span>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg flex flex-col items-center hover:bg-gray-300 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mb-2 hover:scale-110 hover:text-blue-500 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                    </svg>
+                    <span class="text-sm hover:text-blue-500 transition duration-300">Categorias</span>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg flex flex-col items-center hover:bg-gray-300 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mb-2 hover:scale-110 hover:text-blue-500 transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m6-6l3 3-3 3" />
+                    </svg>
+                    <span class="text-sm hover:text-blue-500 transition duration-300">Me Ajuda</span>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <div class="flex justify-around border-t border-gray-200 p-4">
+            <div class="flex flex-col items-center hover:text-blue-500 transition duration-300">
+                <i class="fas fa-home fa-2x hover:scale-110 transition duration-300"></i>
+                <span class="text-xs">Home</span>
+            </div>
+            <div class="flex flex-col items-center hover:text-blue-500 transition duration-300">
+                <i class="fas fa-shopping-cart fa-2x hover:scale-110 transition duration-300"></i>
+                <span class="text-xs">Carrinho</span>
+            </div>
+            <div class="flex flex-col items-center hover:text-blue-500 transition duration-300">
+                <i class="fas fa-box fa-2x hover:scale-110 transition duration-300"></i>
+                <span class="text-xs">Pedidos</span>
+            </div>
+            <div class="flex flex-col items-center hover:text-blue-500 transition duration-300">
+                <i class="fas fa-bars fa-2x hover:scale-110 transition duration-300"></i>
+                <span class="text-xs">Mais</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
