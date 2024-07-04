@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys Shop</title>
+    <!-- Incluindo o CSS do Tailwind CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <!-- Incluindo o CSS do Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white shadow-lg rounded-lg max-w-xs w-full">
+        <!-- Header -->
+        <div class="p-4 flex flex-col items-center">
+            <img src="https://image.freepik.com/vector-gratis/diseno-logotipo-juguetes-ninos_29937-4737.jpg" alt="Toys Shop" class="w-24 h-24 mb-4">
+
+            <!-- Botões de Meios de Pagamento -->
+            <div class="flex flex-col items-center mb-4">
+                <button class="bg-white rounded-full border border-gray-300 px-3 py-1 flex items-center space-x-2 hover:bg-gray-200 mb-2">
+                    <i class="fas fa-credit-card text-green-500"></i>
+                    <span>Cartão</span>
+                </button>
+                <button class="bg-white rounded-full border border-gray-300 px-3 py-1 flex items-center space-x-2 hover:bg-gray-200 mb-2">
+                    <span>Pix</span>
+                </button>
+                <button class="bg-white rounded-full border border-gray-300 px-3 py-1 flex items-center space-x-2 hover:bg-gray-200 mb-2">
+                    <span>Boleto</span>
+                </button>
+                <button class="bg-green-500 text-white px-3 py-1 rounded-full hover:bg-green-700 flex items-center space-x-2 mb-2">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>Você pagará R$ 39,99</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="flex justify-around border-t border-gray-200 p-4">
+            <div class="flex flex-col items-center">
+                <button class="flex flex-col items-center space-y-1">
+                    <i class="fas fa-home fa-2x"></i>
+                    <span class="text-xs">Home</span>
+                </button>
+            </div>
+            <div class="flex flex-col items-center">
+                <button class="flex flex-col items-center space-y-1">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                    <span class="text-xs">Carrinho</span>
+                </button>
+            </div>
+            <div class="flex flex-col items-center">
+                <button class="flex flex-col items-center space-y-1">
+                    <i class="fas fa-box fa-2x"></i>
+                    <span class="text-xs">Pedidos</span>
+                </button>
+            </div>
+            <div class="flex flex-col items-center">
+                <button class="flex flex-col items-center space-y-1">
+                    <i class="fas fa-bars fa-2x"></i>
+                    <span class="text-xs">Mais</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
